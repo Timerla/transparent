@@ -1,0 +1,429 @@
+.header {
+    overflow: hidden;
+    color: $white;       
+}
+
+
+.container_header {
+    background-color: $blue;
+}
+
+.logo_items {
+    padding-top: 22px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.logo_row {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.logo_name {
+    color: $white;
+    text-align: center;
+    font-family: $font-logo;
+    font-size: 31.071px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 98%; /* 30.45px */
+    letter-spacing: 0.311px;
+    text-transform: uppercase;
+}
+
+.logo_title{
+    color: $white;
+    font-family: $font-logo;
+    font-size: 16.83px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 98%; /* 16.493px */
+    letter-spacing: 0.168px;
+    text-transform: uppercase;
+}
+
+.location {
+    margin-right: 75px;
+    position: relative;
+    color: $white;
+    font-family: $font-accent;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -1.08px;
+}
+
+.contact {
+    position: relative;
+    color: $white;
+    font-family: $font-accent;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -1.08px;
+}
+
+.lang{
+    margin-left: 151px;
+    position: relative;
+}
+
+.pink_lang{
+    background-color: $blue;
+    color: $white;
+    outline: none;
+    cursor: pointer;
+
+    font-family: $font-accent;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -1.08px;
+    border: 0;
+}
+
+.logo_item {
+    margin-right: 296.82px;
+    position: relative;
+}
+
+
+.logo_item::before{
+    content: "";
+    background-image: url(./../img/Logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 70.234px;
+    width: 53.599px;
+    position: absolute;
+    top: 5px;
+    left: -60px;
+}
+
+.location::before{
+    content: "";
+    background-image: url(./../../img/header/mail-outline.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 29px;
+    width: 29px;
+    position: absolute;
+    top: 3px;
+    left: -40px;
+}
+
+.contact::before{
+    content: "";
+    background-image: url(./../../img/header/symbols_call.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 29px;
+    width: 29px;
+    position: absolute;
+    top: 3px;
+    left: -40px;
+}
+
+.lang::before{
+    content: "";
+    background-image: url(./../../img/header/lang.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 29px;
+    width: 29px;
+    position: absolute;
+    top: 1px;
+    left: -40px;
+}
+
+
+
+//1 раздел лого
+
+/*.logo_items{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: $blue;
+    align-items: center; 
+}
+
+
+
+.logo_row div{
+    font-family: $font-accent;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -1.08px;
+}
+
+.logo_name{
+text-align: center;
+font-family: $font-logo;
+font-size: 31.071px;
+font-style: normal;
+font-weight: 700;
+line-height: 98%; 
+letter-spacing: 0.311px;
+text-transform: uppercase;
+}
+
+.logo_item{
+    margin-left: 323px;     
+    padding: 23px 0 10px;
+    width: 290.184px;
+    height: 54.556px;
+    flex-shrink: 0;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+}
+
+
+.logo_title {
+    font-family: $font-logo;
+    text-align: center;
+    font-size: 16.83px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 98%; 
+    letter-spacing: 1.168px;
+    text-transform: uppercase;
+}
+
+
+.logo_title::before{
+    content: "";
+  background-image: url(./../img/Logo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 70.234px;
+  width: 53.599px;
+  position: absolute;
+    top: 26px;
+    left: -30px;
+}
+
+.contact{
+    margin-left: 31px;
+    padding-top: 15px;
+    position: relative;
+}
+
+.lang {
+    margin-left: 150px;
+    position: relative;
+    padding-top: 15px;
+}
+
+.location {
+    margin-left: 230.82px;
+    margin-right: 40px;
+    padding-top: 15px;
+    position: relative;
+}
+
+.logo_row{
+    position: relative;
+}
+
+.logo_row a {
+    opacity: 0.7;
+}
+
+.location::before{
+    content: "";
+    background-image: url(./../../img/header/mail-outline.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 29px;
+    width: 29px;
+    position: absolute;
+    top: 18px;
+    left: -35px;
+}
+
+.contact::before{
+    content: "";
+    background-image: url(./../../img/header/symbols_call.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 29px;
+    width: 29px;
+    position: absolute;
+    top: 18px;
+    left: -35px;
+}
+
+.lang::before{
+    content: "";
+    background-image: url(./../../img/header/lang.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 29px;
+    width: 29px;
+    position: absolute;
+    top: 16px;
+    left: -40px;
+}
+
+.lang::after{
+    content: '^';
+    position: absolute;
+    transform: rotate(-180deg);
+    top: 15px;
+    right: -15px;
+    font-size: 15px;
+}  
+
+*/
+
+
+
+
+
+// РАЗДЕЛ НАВИГАЦИЯ
+
+.nav {
+    width: 100%;
+    padding: 40px 0 55px;
+    background-color: $blue;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    column-gap: 155px;   
+}
+
+.nav_list1 {
+    display: flex;
+    column-gap: 29px;
+    text-decoration: none;
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+.nav_list1 li {
+    position: relative;
+    
+}
+
+.nav_list1 li:before{
+    position: absolute;
+    content: '';
+    width: 70%;
+    height: 2px;
+    background-color: $orange;
+    left: 15%; bottom: -10px;
+    transform: scale(0);
+    transition: 0.5s;
+    
+}
+
+.nav_list1 li:hover:before {
+    transform: scale(1);
+    
+  }
+
+
+
+.nav_list1 li {
+    color:  rgba(255, 255, 255, 0.80);
+    font-family: $font-accent;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -1.08px;
+}
+
+.nav_list {
+    padding-top: 8px;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.lindekin, .inst, .whats, .fc_book, .tg {
+    background-size: 24px;
+    background-repeat: no-repeat;
+}
+
+.inst, .whats, .fc_book {
+    opacity: 0.5;
+}
+
+
+
+
+
+
+//Раздел Наименования компании
+
+
+.title {
+    min-height: 789px;
+    background: var(--Linear, linear-gradient(180deg, #043357 0.01%, rgba(4, 51, 87, 0.00) 97.4%)),
+        url('./../img/header/istockphoto-846202536-1024x1024\ 1.jpg'), lightgray 50%;
+        background-repeat: no-repeat;
+    background-size: 100% 789px;
+}
+
+.title_columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    row-gap: 4px;
+    padding-top: 10px;
+}
+
+.send {
+    width: 315px;
+    height: 70px;
+    flex-shrink: 1;
+    border-radius: 20px;
+    background: $orange;
+    color: $white;
+    text-align: center;
+    font-family: $font-accent;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.53px;
+    border: none;
+}
+
+.company_name {
+    width: 1235px;
+    height: 196px;
+    color:  $white;
+    text-align: center;
+    font-family: Bebas Neue Cyrillic;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 98%; /* 98px */
+    letter-spacing: 1px;
+}
+
+.company_value{
+    margin-bottom: 56px;
+    width: 900px;
+    color: $white;
+    text-align: center;
+    font-family: Muller;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.53px;
+}
+
+
+

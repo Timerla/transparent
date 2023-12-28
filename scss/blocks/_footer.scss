@@ -1,0 +1,77 @@
+.footer_container{
+    width: 1930px;
+    background-color: $blue;
+}
+
+.footer_items{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 50px 0 50px;
+    
+}
+
+.ft_logo h4{
+    color: $white;
+    font-family: $font-logo;
+    font-size: 42.406px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 98%; /* 41.558px */
+    letter-spacing: 0.424px;
+    text-transform: uppercase;
+}
+
+.ft_logo p{
+    color: $white;
+    font-family: $font-logo;
+    font-size: 22.97px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 98%; /* 22.511px */
+    letter-spacing: 0.23px;
+    text-transform: uppercase;
+}
+
+.ft_mail h4{
+    color: $white;
+    font-family: $font-accent;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.53px;
+}
+
+.ft_num h4{
+    color: $white;
+    font-family: $font-accent;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.53px;
+}
+
+.ft_logo {
+    margin-right: 145px;
+    position: relative;
+}
+
+.ft_mail{
+    margin-right: 107px;
+}
+
+.ft_logo h4::before{
+    content: "";
+    background-image: url(./../../img/Logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 85.856px;
+    height: 63.153px;
+    
+    position: absolute;
+    top: 6px;
+    left: -90px;
+}

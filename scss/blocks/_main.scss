@@ -1,0 +1,547 @@
+.about_comp{
+    
+}
+
+.about_items{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 157px 0 157px 250px;
+    width: 1650px;
+}
+
+.about_column {
+    width: 900px;
+}
+
+.about_column h3{
+    color: $black;
+    margin-top: 100px;
+    margin-bottom: 32px;
+    text-align: start;
+    font-family: $font_bud;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 98%; /* 68.6px */
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+}
+
+.about_column p {
+    width: 522px;
+    color: $black;
+    font-family: $font-accent;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -1.08px;
+}
+
+.team{
+    
+}
+    
+.team h3 {
+    color: $black;
+    text-align: start;
+    margin-top: 144px;
+    margin-bottom: 20px;
+    font-family: $font_bud;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 98%; /* 68.6px */
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+}
+
+.team p {
+    width: 522px;
+    color: $black;
+    font-family: $font-accent;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -1.08px;
+}
+
+.ship{
+    width: 600px;
+    position: relative;
+    margin: 110px 150px 0 0;
+    
+}
+
+.ship_half{
+    width: 311px;
+    height: 288px;
+    flex-shrink: 0;
+}
+
+.ship_lain{
+    position: absolute;
+    top: -50px;
+    left: 217px;
+    width: 413px;
+    height: 383px;
+    flex-shrink: 0;
+}
+
+.transport{
+    width: 640px;
+    height: 640px;
+    flex-shrink: 0;
+}
+
+
+//Раздел сайта - NAture of bussines
+
+.nature {
+    background-color: $blue;
+    height: 1070px;
+}
+
+.nature_title {
+    width: 100%;
+    height: 250px;
+    background-color: $blue;
+}
+
+.nature_top{
+    background: url(./../../img/main/kamaz.png), lightgray 50% / cover no-repeat;
+    width: 1920px;
+    height: 820px;
+    flex-shrink: 0;
+}
+
+
+.nature_column h3{
+    color: $white;
+    text-align: center;
+    padding-top: 92px;
+    font-family: $font_bud;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 98%; /* 68.6px */
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+}
+
+.nature_column p {
+    color: $orange;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    font-family: $font-accent;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -1.08px;
+}
+
+
+.nature_list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1090px;
+    margin: 0 auto;
+    overflow-y: scroll;
+    
+}
+
+.nature_list::-webkit-scrollbar{
+    width: 8px;
+}
+
+.nature_list::-webkit-scrollbar-track{
+    background-color: #999;
+    border-radius: 5px;
+
+}
+
+.nature_list::-webkit-scrollbar-thumb{
+    background-color: $white;    /* цвет плашки */
+    border-radius: 20px;       /* закругления плашки */
+    border: 3px solid $white;
+}
+
+.reliably, .efficiency, .clear, .effective {
+    background-color: $white;
+    position: relative;
+    width: 522px;
+    height: 152px;
+}
+
+.reliably span, .efficiency span, .clear span, .effective span {
+    color: $black;
+    font-family: $font-accent;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.81px;
+}
+
+.reliably h4, .efficiency h4, .clear h4, .effective h4 {
+    margin: 49px 0 49px 124px;
+}
+
+.efficiency, .reliably {
+    margin-bottom: 20px;
+}
+
+.reliably, .clear {
+    margin-right: 20px;
+}
+
+.reliably h4{
+    width: 384px;
+    height: 54px;
+    color: $black;
+    font-family: $font-accent;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -0.81px;
+}
+
+.efficiency h4 {
+    width: 351px;
+    height: 54px;
+    color: $black;
+    font-family: $font-accent;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -0.81px;
+}
+
+.clear h4 {
+    width: 335px;
+    height: 72px;
+    color: $black;
+    font-family: $font-accent;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -0.81px;
+}
+
+.effective h4 {
+    width: 352px;
+    height: 54px;
+    color: $black;
+    font-family: $font-accent;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -0.81px;
+}
+
+.reliably h4::before{
+    content: "";
+    background-image: url(./../../img/main/reliably.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 20px;
+    width: 73px;
+    height: 62px;
+}
+
+.efficiency h4::before{
+    content: "";
+    background-image: url(./../../img/main/efficience.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute; 
+    left: 20px;
+    width: 73px;
+    height: 62px;
+}
+
+.clear h4::before{
+    content: "";
+    background-image: url(./../../img/main/clear.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute; 
+    left: 20px;
+    width: 73px;
+    height: 62px;
+}
+
+.effective h4::before{
+    content: "";
+    background-image: url(./../../img/main/effective.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute; 
+    left: 20px;
+    width: 73px;
+    height: 62px;
+}
+
+
+//Раздел mission
+
+
+
+.mission_items h3{
+    color: $black;
+    margin: 106px auto 20px;
+    text-align: center;
+    font-family: $font_bud;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 98%; /* 68.6px */
+    letter-spacing: 0.7px;
+}
+
+.mission_items p {
+    color: $black;
+    text-align: center;
+    margin-bottom: 80px;
+    font-family: $font-accent;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -1.08px;
+}
+
+.mission_main {
+    margin-bottom: 140px;
+}
+
+.mission_container_2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1280px;
+    row-gap: 60px;
+    
+}
+
+.mission_container_2 div{
+    width: 305px;
+    max-height: 305px;
+}
+
+.provide{
+    background-color: $green;
+    color: $white;
+    margin-right: 20px;
+}
+
+.mission_container_2 div h4 {  
+    font-family: $font-accent;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -1.08px;
+}
+
+.provide h4 {
+    padding: 20px 0 0 20px;
+}
+
+.pride h4 {
+    padding-top: 20px;
+}
+
+.pride {
+    margin-left: 20px;
+}
+
+.ourteam{
+    padding-top: 20px;
+    margin-right: 20px;
+}
+
+.respon {
+    padding-top: 20px;
+    margin: 0 20px 0 20px;
+}
+
+//Секция Trading product
+
+.product{
+    height: 1080px;
+}
+
+.tr_top{
+    padding-top: 99px;
+    display: flex;
+    background-color: $green;
+    height: 569px;  
+    justify-content: center;
+    column-gap: 79px;
+}
+
+.tr_bottom{
+    position: relative;
+}
+
+.tr_cont h3{
+    padding: 10px 0 20px 0;
+    color: $white;
+    text-align: center;
+    font-family: $font-bud;
+    font-size: 53px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 98%; /* 68.6px */
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+}
+
+.prod_title{
+    width: 487px;
+    height: 600px;
+    background-color: $blue;
+    display: inline-block;
+    position: relative;
+    top: -75px;
+    left: 50.9%;
+}
+
+.boarding{
+    display: inline-block;
+    position: absolute;
+    top: -41%;
+    left: 27.3%;
+}
+
+.prod_title h3{
+    padding: 52px 0 16px 31px;
+    color: $white;
+    font-family: $font-bud;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 98%; /* 68.6px */
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+}
+
+.prod_title p {
+    padding-left: 31px;
+    color: $white;
+    font-family: Muller;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -1.08px;
+    height: 1400px;
+    background-color: $blue;
+}
+
+//Раздел Countries of work 
+
+.countries_container{
+    width: 1220px;
+    height: 940px;
+    margin: 110px auto 0;
+}
+
+.countries_items {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.countries_list{
+    width: 680px;
+    height: 656px;
+}
+
+
+
+.countries_list h3 {
+    margin-bottom: 17px;
+    color: $black;
+    font-family: Bebas Neue Cyrillic;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 98%; /* 68.6px */
+    letter-spacing: 0.7px;
+}
+
+.list_items li{
+    list-style-type: disc;
+}
+
+.list_items li a{
+    margin-bottom: 8px;
+    color: $black;
+    font-family: $font-accent;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+     /* 0px */
+    letter-spacing: -1.08px;
+    
+}
+
+
+.list_items li:hover{
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.list_items li a:hover{
+    display: block;
+    color: $white;
+    background-color: $green;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.53px;
+    padding-bottom: 5px;
+}
+
+.list_items li a:hover{
+    background-image: url(./../../img/main/location.svg);
+    background-repeat: no-repeat;
+    background-size: 16px 21px;
+    background-position-y: 15px;
+    background-position-x: 10px;
+    padding-left: 40px;
+    
+
+}
+
+
+.zem{
+    position: relative;
+    width: 680px;
+    height: 656px;
+
+}
+
+.earth{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.28) 0%, rgba(0, 0, 0, 0.28) 100%), url(./../../img/main/earth.png), lightgray 50% / cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 944px;
+    height: 944px;
+    flex-shrink: 0;
+    position: absolute;
+    top: -100px;
+    left: -300px;   
+}
+
